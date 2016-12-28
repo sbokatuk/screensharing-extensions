@@ -1,6 +1,6 @@
 {
-  "name" : "OpenTok Screen Sharing",
-  "author": "TokBox, Inc.",
+  "name" : "AgriSync Screen Sharing",
+  "author": "AgriSync, Inc.",
   "version" : "2.0",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
@@ -12,7 +12,11 @@
   },
   "externally_connectable": {
     "matches": [
-      "https://*.change-this-to-your-domain.com/*"
+      "https://app.agrisync.com/*",
+	  "http://localhost:50291/*",
+	  "https://output.jsbin.com/*",
+	  "https://wa-ags-devel.azurewebsites.net/*",
+	  "https://wa-ags-dev.azurewebsites.net/*"
     ]
   },
   "icons": {
