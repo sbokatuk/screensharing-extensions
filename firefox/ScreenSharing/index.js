@@ -1,7 +1,7 @@
 var pageMod = require('sdk/page-mod');
 var prefsService = require('sdk/preferences/service');
 var allowDomainsPrefKey = 'media.getusermedia.screensharing.allowed_domains';
-var gDomains = ['*.example.com'];
+var gDomains = ['wa-ags-dev.azurewebsites.net', 'wa-ags-devel.azurewebsites.net', '*.agrisync.com'];
 
 exports.main = function (options) {
 

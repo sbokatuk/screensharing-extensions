@@ -1,9 +1,10 @@
 {
-  "id": "ffscreensharing@example.com",
-  "title": "Screen-sharing extension",
+  "id": "agrisynctestsharing@bokatuk.com",
+  "name": "agrisynctestsharing",
+  "title": "screen-sharing extension",
   "version": "0.0.1",
-  "description": "A screen-sharing extension",
-  "author": "",
+  "description": "A screen-sharing extension for AgriSync",
+  "author": "Sergei Bokatuk",
   "main": "index.js",
   "engines": {
     "firefox": ">=38.0a1",
